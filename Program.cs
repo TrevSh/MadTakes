@@ -8,39 +8,58 @@ string verbGrab;
 string favoriteResturant;
 string favoriteRPG;
 
+
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Whats your name?");
+Console.ForegroundColor = ConsoleColor.Green;
 name = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Whats your favorite food?");
+Console.ForegroundColor = ConsoleColor.Green;
 food = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Whats a good word for 'throw'?");
+Console.ForegroundColor = ConsoleColor.Green;
 verbThrow = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Where do you buy your clothes?");
+Console.ForegroundColor = ConsoleColor.Green;
 favoriteStore = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Whats your favorite book?");
+Console.ForegroundColor = ConsoleColor.Green;
 favoriteBook = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Whats your favorite band?");
+Console.ForegroundColor = ConsoleColor.Green;
 favoriteBand = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Whats a good word for take?");
+Console.ForegroundColor = ConsoleColor.Green;
 verbGrab = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Whats your favorite place to eat");
+Console.ForegroundColor = ConsoleColor.Green;
 favoriteResturant = Console.ReadLine()!;
 
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("What game has the coolest character?");
+Console.ForegroundColor = ConsoleColor.Green;
 favoriteRPG = Console.ReadLine()!;
 
 
-
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("There once was a man named"
     + name
     + "."
-    + name
+    + name 
     + " Really had thing against "
     + food
     + ". I mean, seriously,"
